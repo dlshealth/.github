@@ -1,7 +1,7 @@
 name: Bug
 description: Report something that isn’t working correctly
 type: bug
-projects: [Test]
+projects: [dlshealth/4]
 body:
   - type: input
     id: summary
