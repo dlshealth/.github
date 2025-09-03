@@ -1,0 +1,32 @@
+name: User Story
+description: Capture a feature or requirement in user story format
+title: "[STORY] "
+labels: [story]
+body:
+  - type: textarea
+    id: user_story
+    attributes:
+      label: User Story
+      description: Write the story in the format "As a [role], I want [feature], so that [benefit]"
+      placeholder: "As a customer, I want to reset my password, so that I can regain access to my account."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the criteria that must be met for this story to be considered complete
+      placeholder: |
+        - User receives password reset link via email
+        - Link expires after 24 hours
+        - User can set a new password that meets complexity rules
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Add any context, design ideas, or references
+      placeholder: "Related designs, links, dependencies..."
