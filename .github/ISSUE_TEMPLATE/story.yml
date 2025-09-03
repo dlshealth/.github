@@ -1,7 +1,7 @@
 name: User Story
 description: Capture a feature or requirement in user story format
-title: "[STORY] "
-labels: [story]
+type: story
+project: [Test]
 body:
   - type: textarea
     id: user_story

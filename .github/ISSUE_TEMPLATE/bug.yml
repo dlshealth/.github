@@ -1,7 +1,7 @@
 name: Bug
 description: Report something that isn’t working correctly
-title: "[BUG] "
-labels: [bug]
+type: bug
+project: [Test]
 body:
   - type: input
     id: summary
