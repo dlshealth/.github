@@ -1,0 +1,29 @@
+name: Feature
+description: Create a new Feature (a bundle of work, often delivered via multiple stories)
+type: feature
+projects: [dlshealth/4]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide a detailed description of the feature, including goals, requirements, and any relevant context.
+      placeholder: "Describe the feature in detail..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this feature to be considered complete?
+      placeholder: "Acceptance criteria..."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant information.
+      placeholder: "Notes..."
+    validations:
+      required: false
