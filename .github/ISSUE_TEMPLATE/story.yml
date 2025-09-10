@@ -3,6 +3,15 @@ description: Capture a feature or requirement in user story format
 type: story
 projects: [dlshealth/4]
 body:
+  - type: input
+    id: ado_wi_number
+    attributes:
+      label: ADO Work Item Number
+      description: (Temporal field) Azure DevOps work item number related to this issue. e.g. AB#NUMBER
+      placeholder: AB#1234
+    validations:
+      required: false
+      
   - type: textarea
     id: user_story
     attributes:
